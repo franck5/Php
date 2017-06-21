@@ -1,6 +1,4 @@
 <?php 
-
-
 	$Departments = array(
  
       02 => 'Aisne', 
@@ -11,6 +9,7 @@
   );
 	foreach($Departments as $cle=>$valeur) 
     { 
-    echo $valeur.'<br>'; 
-    } 
+    echo "Le département". " ".$valeur." "."a le numéro"." ".$cle.'<br>'; 
+    }
+
 ?>
