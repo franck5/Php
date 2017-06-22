@@ -58,6 +58,17 @@
 	<?php
 		$number = cal_days_in_month(CAL_GREGORIAN, 2, 2016); // 31
 		echo $number;
-?>
+	?>
+	<h2>Exo 8</h2>
+	<?php
+	echo $today = date("d/m/Y",strtotime('+20 days'));
+
+	?>
+	<h2>Exo 9</h2>
+	<?php
+
+		echo $today = date("d/m/Y",strtotime('-20 days'));
+	?>
+
 </body>
 </html>
