@@ -22,6 +22,13 @@
 	date_default_timezone_set('Europe/Paris');
 	setlocale(LC_TIME, 'fr_FR.utf8','fra');
 	echo strftime("%A %d %B %Y");
-	?> 
+	?>
+	<h2>Exo 4</h2>
+	<?php 
+
+	echo mktime(date("H"), date("i"), date("s"), date("n"), date("j"), date("Y"));
+
+
+	?>
 </body>
 </html>
