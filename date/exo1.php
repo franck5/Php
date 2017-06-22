@@ -26,9 +26,14 @@
 	<h2>Exo 4</h2>
 	<?php 
 
-	echo mktime(date("H"), date("i"), date("s"), date("n"), date("j"), date("Y"));
+	echo time();
+	?>
 
+	<h2>Exo 5</h2>
 
+	<?php 
+	 
+		echo mktime(15, 0, 0, 8, 2, 2016);
 	?>
 </body>
 </html>
