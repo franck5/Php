@@ -15,8 +15,16 @@
 	<h2>Exo4</h2>
 	<?php
 	echo $_COOKIE['login'];
-	
+
 	echo $_COOKIE['pass'];
+	?>
+	<h2>Exo5</h2>
+	<?php 
+
+		setcookie("login","Lalala");
+		echo $_COOKIE["login"];
+		setcookie("pass","hahaha");
+		echo $_COOKIE["pass"];
 	?>
 </body>
 </html>
