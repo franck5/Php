@@ -23,15 +23,15 @@
 			<label for="n">Nom</label>
 			<input type="text" name="nom">
 			<label for="prenom">Prenom</label>
-			<inpomut type="text" name="prenom">
+			<input type="text" name="prenom">
 			<input type="submit" value="Ok">
 		</form>
 
 
 
 	<?php 
-		$prenom = $_GET['prenom'];
-		$nom = $_GET['nom'];
+		$prenom = $_POST['prenom'];
+		$nom = $_POST['nom'];
 		echo("<center>Bonjour $prenom $nom</center>");
 	?>
 
@@ -50,12 +50,14 @@
 		<input type="file" name="fichier" id="fichier" />
 
 		<input type="submit" value="valider">
-	</form>	
+	</form>
+	
 	<?php
 		$pre = $_GET['pre'];
 		$nam = $_GET['nam'];
 		$fichier = $_GET['fichier'];
 		echo("<center>Nom: $nam Prenom : $pre Fichier : $fichier </center>");
+
 
 	?>
 </body>
