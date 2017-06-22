@@ -69,6 +69,37 @@
 
 		echo $today = date("d/m/Y",strtotime('-20 days'));
 	?>
+	<h2>EXO 10</h2>
+	<form>
+		<select name="mois">
+			<option>Janvier</option>
+			<option>Fevrier</option>
+			<option>Mars</option>
+			<option>Avril</option>
+			<option>Mai</option>
+			<option>Juin</option>
+			<option>Juillet</option>
+			<option>Aout</option>
+			<option>Septembre</option>
+			<option>Octobre</option>
+			<option>Decembre</option>
+		</select>
+		<select name="annee">
+			<option>2017</option>
+			<option>2016</option>
+			<option>2015</option>
+			<option>2014</option>
+			<option>2013</option>
+			<option>2012</option>
+			<option>2011</option>
+			<option>2010</option>
+			<option>2009</option>
+			<option>2008</option>
+			<option>2007</option>
+			
+			
+		</select>
+	</form>
 
 </body>
 </html>
