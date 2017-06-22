@@ -22,8 +22,8 @@
 	?>
 
 	<h2>Exo 2</h2>
-
 	<a href="recup.php">Go</a>
+
 	<?php 
 		session_start();
 		$_SESSION['Nom'] = 'Dubech';
