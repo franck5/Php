@@ -4,6 +4,7 @@
 	<title></title>
 </head>
 <body>
+	<a href="recup.php">Go</a>
 	<h2>Exo1</h2>
 	<?php
  
@@ -19,6 +20,18 @@
 	<?php
 
 		echo $_SERVER['SERVER_NAME'];
+	?>
+
+	<h2>Exo 2</h2>
+
+	<?php 
+		session_start();
+		$_SESSION['Nom'] = 'Dubech';
+		$_SESSION['Prenom'] = 'Franck';
+		$_SESSION['Age'] = 23;
+
+
+
 	?>
 </body>
 </html>
