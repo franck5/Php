@@ -10,11 +10,15 @@
 		echo $_SERVER['HTTP_USER_AGENT'] ;
  
 	?>
-	<h2>Exo 2</h2>
+	<h2>Exo 1.2</h2>
 
 	<?php 
 		echo $_SERVER['REMOTE_ADDR']; 
 	?> 
+	<h2>Exo 1.3</h2>
+	<?php
 
+		echo $_SERVER['SERVER_NAME'];
+	?>
 </body>
 </html>
