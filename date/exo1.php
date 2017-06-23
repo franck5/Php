@@ -67,7 +67,7 @@
 	<h2>Exo 9</h2>
 	<?php
 
-		echo $today = date("d/m/Y",strtotime('-20 days'));
+		echo $today = date("d/m/Y",strtotime('-22 days'));
 	?>
 	<h2>EXO 10</h2>
 	<form>
@@ -96,10 +96,14 @@
 			<option>2009</option>
 			<option>2008</option>
 			<option>2007</option>
-			
-			
 		</select>
+		<input type="submit" name="ok">
 	</form>
+
+
+
+	
+
 
 </body>
 </html>
